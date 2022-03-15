@@ -2,7 +2,7 @@
 import './App.css';
 import { Home } from './components/Home';
 import { CountryDetails } from './components/CountryDetails';
-import { Routes, Route, Link } from "react-router-dom";
+import { Routes, Route } from "react-router-dom";
 
 function App() {
   return (

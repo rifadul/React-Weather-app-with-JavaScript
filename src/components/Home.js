@@ -1,10 +1,10 @@
 import React from 'react';
-import { Link, useNavigate } from 'react-router-dom';
+import { useNavigate } from 'react-router-dom';
 import { useState } from 'react';
 import axios from 'axios';
 export const Home = () => {
     const [countryName, setCountryName] = useState('');
-    const [info, setInfo] = useState([]);
+    const [setInfo] = useState([]);
     const [wrongInfo, setWrongInfo] = useState(false);
 
     const navigate = useNavigate();
